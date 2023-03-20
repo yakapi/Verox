@@ -1,7 +1,7 @@
 import {auth} from "../../firebase-config"
  function Tester(){
+    console.log('ICI QUE CA SE PASSE');
     console.log(auth);
-    console.log(process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
     return(
         <div>
             tester
